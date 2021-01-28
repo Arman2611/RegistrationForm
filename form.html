@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <form action="server.js">
+		<h2 id="main-heading">
+			registration form
+		</h2>
+    	<div id="label-container">
+    		<label for="first-name" class="form-label">
+	    		First Name
+	    		<input type="text" id="first-name" name="first-name">
+	    	</label>
+	    	<label for="second-name" class="form-label">
+	    		Second Name
+	    		<input type="text" id="second-name"" name="second-name">
+	    	</label>
+	    	<label for="e-mail" class="form-label">
+	    		E-mail
+	    		<input type="email" id="e-mail"" name="e-mail">
+	    	</label>
+	    	<label for="password" class="form-label">
+	    		Password
+	    		<input type="password" id="password"" name="password">
+	    	</label>
+	    	<label for="date-of-birth" class="form-label">
+	    		Date of Birth
+	    		<input type="date" id="date-of-birth"" name="date-of-birth">
+	    	</label>
+	    	<label for="gender" class="form-label"> Gender
+				<div id="gender-box">
+					<span class="radio-box">
+						Male
+						<input type="radio" id="male" name="gender" value="male">
+					</span>
+					<span class="radio-box">
+						Female
+						<input type="radio" id="female" name="gender" value="female">
+					</span>
+				</div>
+	    	</label>
+	    	<label for="phone-number" class="form-label">
+	    		Phone
+	    		<input type="tel" id="phone-number" name="phone-number">
+	    	</label>
+	    	<label for="skills" class="form-label">	Skills 
+				<div id="skills-box">
+					<span class="checkbox-container">
+						HTML
+						<input type="checkbox" name="skills" value="html">
+					</span>
+					<span class="checkbox-container">
+						CSS
+						<input type="checkbox" name="skills" value="css">
+					</span>
+					<span class="checkbox-container">
+						Javascript
+						<input type="checkbox" name="skills" value="Javascript">
+					</span>
+				</div>
+			</label>
+		</div>
+		<input type="submit" id="submit-btn" value = "SIGN UP">
+    </form>
+</body>
+</html>
